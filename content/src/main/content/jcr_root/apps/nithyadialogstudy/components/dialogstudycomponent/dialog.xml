@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:TabPanel"
+    activeTab="0"
+    helpPath="en/cq/current/wcm/default_components.html#Text Image"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tab1
+            jcr:primaryType="cq:Widget"
+            title="ClassDetails"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <namefield
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Enter your name"
+                    name="./enteredname"
+                    xtype="textfield"/>
+                <description
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Enter your description"
+                    name="./description"
+                    xtype="textarea"/>
+                <country
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Your country"
+                    name="./countryname"
+                    type="select"
+                    xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <country1
+                            jcr:primaryType="cq:Widget"
+                            text="usa"
+                            value="USA"/>
+                        <country2
+                            jcr:primaryType="cq:Widget"
+                            text="india"
+                            value="India"/>
+                            <country2
+                            jcr:primaryType="cq:Widget"
+                            text="Pak"
+                            value="Pak"/>
+                            
+                    </options>
+                </country>
+                <image
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="upload image"
+                    name="./image"
+                    xtype="pathfield"/>
+                <fulltime
+                    jcr:primaryType="cq:Widget"
+                    checked="{Boolean}true"
+                    fieldLabel="Are you a full timer?"
+                    name="./fulltimeornot"
+                    xtype="checkbox"/>
+                    
+                    
+            </items>
+        </tab1>
+    </items>
+</jcr:root>
