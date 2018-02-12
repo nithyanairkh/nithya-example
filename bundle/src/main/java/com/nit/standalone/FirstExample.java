@@ -11,7 +11,7 @@ public class FirstExample {
 	public static void main(String[] args) {
 		
 		Map<String,String> exMap=new HashMap<String, String>();
-		
+		//this is a map
 		exMap.put("name", "Dileep");
 		exMap.put("name", "Dhanvi");
 		exMap.put("name", "Nithya");
