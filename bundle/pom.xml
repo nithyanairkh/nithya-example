@@ -25,7 +25,13 @@
             <artifactId>org.osgi.compendium</artifactId>
         </dependency>
           
-
+<dependency>
+    		<groupId>com.adobe.aem</groupId>
+    		<artifactId>uber-jar</artifactId>
+    		<version>6.2.0</version>
+    		<classifier>apis</classifier>
+	   		  <scope>provided</scope>
+		</dependency>
             <dependency>
             <groupId>com.day.cq.workflow</groupId>
             <artifactId>cq-workflow-api</artifactId>
